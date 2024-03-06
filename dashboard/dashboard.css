@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+body
+{
+    background-color: lightgray;
+}
+
+
+.container
+{
+    width: 100%;
+    position: relative
+    
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+     align-items: center;
+}
+   
+header{
+    margin-left: 85%;
+}
+
+.meeting
+{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    overflow: hidden;
+    margin-left: 25%;
+   
+}
+.meeting .btn
+{
+    margin-top: 250px;
+    font-size: 18px;
+
+
+}
+.meeting .btn2
+{
+    position: absolute;
+    bottom:  -80px;
+
+}
